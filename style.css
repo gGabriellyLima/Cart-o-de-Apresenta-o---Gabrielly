@@ -1,4 +1,90 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: lightpink;
-    display:flex;
+  background-color: #ffe6f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cartao {
+  background-color: #ffffff;
+  width: 320px;
+  max-width: 90%;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.cartao img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.14);
+}
+
+.cartao h1 {
+  color: #d63384;
+  font-size: 22px;
+  margin: 0 0 8px 0;
+}
+
+.cartao h3 {
+  color: #333;
+  font-size: 18px;
+  margin: 12px 0 8px 0;
+}
+
+.cartao p {
+  color: #444;
+  font-size: 15px;
+  line-height: 1.45;
+  margin: 8px 0 12px 0;
+  text-align: left;
+}
+
+.cartao ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cartao li {
+  background-color: #f8d7e3;
+  margin: 8px 0;
+  padding: 8px 10px;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.cartao li strong {
+  display: block;
+  color: #b02066;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 380px) {
+  .cartao {
+    padding: 16px;
+  }
+  .cartao img {
+    width: 120px;
+    height: 120px;
+  }
+  .cartao h1 {
+    font-size: 20px;
+  }
 }
