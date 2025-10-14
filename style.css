@@ -26,6 +26,7 @@ body {
 }
 
 .cartao img {
+  background-image: url("foto-gaby.jpeg");
   width: 150px;
   height: 150px;
   border-radius: 50%;
